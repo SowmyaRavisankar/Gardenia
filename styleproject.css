@@ -1,0 +1,245 @@
+		body{
+			background-color: lavender;
+		}
+		.title{
+			background-color: lightyellow;
+			font-size: 20px;
+			width: 100%;
+			height: 120px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+		}
+		.titleimage img{
+			width: 100%;
+			height: 120px;
+		}
+		.titleimage{
+			width: 10%;
+			/*padding-left: 2%;
+			padding-top: 0.5%;*/
+		}
+		.titlename{
+			/*width: 80%;*/
+			text-align: left;
+			font-size: 32px;
+			/*padding-bottom: 5%;*/
+		}
+		.topline{
+			border: 0px none black;
+			background-color: green;
+			color: white;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: wrap;
+			justify-content: space-around;
+			font-size: 22px;
+			padding: 1% 0% 1% 0%;
+		}
+		.mail{
+			width: 25%;
+			padding-left: 1%;
+			cursor: pointer;
+		}
+		.phone{
+			width: 25%;
+			cursor: pointer;
+		}
+		.cart{
+			width: 20%;
+			cursor: pointer;
+		}
+		.login{
+			width: 20%;
+			cursor: pointer;
+		}
+		.signup{
+			width: 9%;
+			cursor: pointer;
+		}
+		.navigation{
+			background-color: lightgreen;
+	        color: black;
+	        /*padding: 0.3% 0.3% 0.3% 0.3%*/
+        }
+        .navigation button{
+	        background-color: lightgreen;
+	        width: 14%;
+	        height: 50px;
+	        border: none;
+	        border-radius: 30px;
+	        font-size: 16px;
+        }
+        .navigation button:hover{
+	        background-color: lightblue;
+	        color: blue;
+	        cursor: pointer;
+        }
+        h1{
+        	text-align: center;
+        }
+        .indoor{
+        	text-align: center;
+        	padding: 0% 2% 0% 2%;
+        	text-align: center;
+        	display: flex;
+        	flex-direction: row;
+        	flex-wrap: wrap;
+            justify-content: space-around;
+            /*width: 40%;*/
+        }
+        .indoor div{
+        	width: 45%;
+        }
+        .indoor h1{
+        	font-size: 50px;
+        }
+        .indoor h2{
+        	font-size: 30px;
+        }
+        .indoor button{
+            background-color: lightpink;
+            color: white;
+            border-radius: 5px;
+            padding: 1%;
+            font-size: 19px;
+        }
+        .indoor button:hover{
+        	background-color: lightblue;
+        	cursor: pointer;
+        	padding: 1.5%;
+        	font-size: 20px;
+        }
+        .nature div{
+	background-color: white;
+	color: black;
+	border-radius: 30px 0px 30px 0px;
+	border: 2px none #ccc;
+	padding: 2%;
+	width: 26.5%;
+	box-shadow: 2px 3px 4px 5px black;
+	justify-content: space-around;
+}
+.nature div img{
+	width: 100%;
+}
+.nature div img:hover{
+	transition: all 1s ease;
+	width: 100%;
+}
+.nature{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: 25px;
+	background-color: lavender;
+	justify-content: space-around;
+}
+.nature div:hover{
+	background-color: #ccc;
+	cursor: pointer;
+	width: 26%;
+}
+.nature button{
+	margin-left: 0.6%;
+	padding: 2%;
+	background-color: brown;
+	color: white;
+	font-size: 15px;
+	border-radius: 10px
+}
+.nature button:hover{
+	background-color: gold;
+	color: black;
+	cursor: pointer;
+}
+.livedeals{
+	border: 0px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: 20px;
+	background-color: lavender;
+	justify-content: space-around;
+	margin: 0% 8% 0% 8%;
+}
+.livedeals div{
+	border: 2px solid #ccc;
+	border-radius: 10px 10px 0px 0px;
+	cursor: pointer;
+	padding: 1%;
+	background-color: lightyellow;
+}
+.livedeals div:hover{
+	background-color: lightpink;
+	transition: all 1s ease;
+	/*width: 22%;*/
+}
+.about{
+	border: 1px solid black;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	font-size: 12px;
+	background-color: gray;
+	color: white;
+	justify-content: space-around;
+}
+footer{
+	background-color: black;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.topline{
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: space-around;
+		}
+		.topline div{
+			width: 100%;
+			padding-left: 5%;
+		}
+		.navigation button{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			width: 20%;
+			padding-left: 10%;
+		}
+		.indoor{
+			flex-direction: column;
+		}
+		.indoor div{
+			width: 98%;
+		}
+		.nature{
+			flex-direction: column;
+		}
+		.nature div{
+			width: 93%;
+			margin-top: 4%;
+		}
+	}
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+	body{
+		background-color: lightblue;
+	}
+	/*.indoor div{
+		width: 90%;
+	}
+	.indoor{
+	    flex-direction: column;
+	    justify-content: space-around;
+}*/
+.indoor h1{
+        	font-size: 20px;
+        }
+        .indoor h2{
+        	font-size: 10px;
+        }
+	
+}
